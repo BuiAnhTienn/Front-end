@@ -33,7 +33,7 @@ cho từng khối luôn nhé */
   là nó bị đẩy xún theo  */
   top: 0;
   /* cho cái thanh header nổi lên trên khi cuộn hình thì thấy hiệu ứng đó */
-  z-index: 1; 
+  z-index: 1;
 }
 
 #header .search-icon:hover {
@@ -110,10 +110,67 @@ cho từng khối luôn nhé */
 #slider .text-header {
   color: white;
   font-size: 30px;
+  margin: 20px;
 }
 #slider .text-descriton {
   color: white;
 }
+
+#content .content-section {
+  width: 800px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#content .content-heading {
+  text-align: center;
+  margin: 10px 0px;
+  letter-spacing: 4px;
+}
+#content .content-sub-heading {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+#content .content-Main {
+  margin: 15px 0px;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+#content .picture-section {
+  padding: 32px 0px;
+  overflow: hidden;
+}
+#content .picture-section .third {
+  /* display: inline-block; */
+
+  /* viết display như trên cũng được có 2 cách vì thẻ div có tính block sẽ thành hàng dọc */
+  /* viết float để đẩy nó qua đâu đó tùy */
+  float: left;
+  /* khi dùng fload lâu nó sẽ bị lỗi kiểu bị đề lên , 
+  hoặc không ôm được thẻ con khắc phục bằng  
+  overflow là nó đẩy căng ra lại ,
+  hoặc có thể dùng clear = both bằng cách tạo 1 thẻ div ở ngay dưới */
+  /* transform: scale(0.7); */
+  width: 33.33333%;
+  text-align: center;
+}
+
+#content .picture-section .third img {
+  /* đặt 1 cái width th là cái còn lại tự động là ảnh nhé */
+  width: 154px;
+
+  border-radius: 4px;
+}
+
+#content .picture-section .third p {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
 #content {
 }
 #foodter {
