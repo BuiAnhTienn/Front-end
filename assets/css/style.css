@@ -22,6 +22,10 @@ html {
 cho từng khối luôn nhé */
 #main {
 }
+/* cái này dùng cho các thẻ div riêng lẻ , được viết vào trong html nhé */
+.text-white {
+  color: white;
+}
 #header {
   height: 46px;
   background-color: black;
@@ -170,6 +174,39 @@ cho từng khối luôn nhé */
   font-size: 15px;
   margin: 15px 0px;
 }
+
+.tuor-section {
+  background-color: black;
+}
+.list-day {
+  background-color: #fff;
+  margin-top: 40px;
+}
+.tour-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  color: #757575;
+  list-style-type: none;
+}
+
+.show-list .status {
+  background-color: red;
+  color: white;
+  padding: 0px 8px;
+  margin: 0 0 0 16px;
+}
+.show-list .status3 {
+  float: right;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 19px;
+  text-align: center;
+  list-style: 22px;
+}
+
+
 
 #content {
 }
