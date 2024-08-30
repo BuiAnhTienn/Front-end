@@ -206,9 +206,141 @@ cho từng khối luôn nhé */
   list-style: 22px;
 }
 
+.row {
+  padding: 32px 8px;
+  margin: 0px -24px;
+  /* overflow để fix fload */
+  overflow: hidden;
+}
+.tour-third {
+  float: right;
+  width: 33.33333%;
+  /* chia thẻ này thành 3 phần , cái thẻ này sẽ chứa cái hình */
+  margin: 0px 0px 16px;
+  padding: 0px 16px;
+}
+.tour-third img {
+  /* tính chất của hình sẽ kh tự co nhỏ lại */
+  /* with này giúp cái hình hiển thị 100% trong cái thẻ div chứa nó */
+  width: 100%;
+  vertical-align: middle;
+}
 
+.content-sub-heading,
+.opacity,
+.tour-third img:hover {
+  opacity: 0.6;
+}
 
-#content {
+.content-row {
+  background-color: white;
+  padding: 0.15px 16px;
+  min-height: 204.8px;
+  font-size: 15px;
+  font: sans-serif;
+}
+.content-row p {
+  margin: 15px 0px;
+}
+
+.buy-ticket {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+.buy-ticket:hover {
+  background-color: gray;
+  color: black;
+}
+.row-contact {
+  padding: 32px 0px;
+  overflow: hidden;
+}
+.row-info {
+  display: inline-block;
+  width: 50%;
+  font-size: 18px;
+  line-height: 15px;
+}
+.field-contact {
+  float: right;
+  width: 50%;
+}
+.info-contact {
+  line-height: 25px;
+}
+.w3-right {
+  float: right;
+}
+.row-padding {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.half-name {
+  width: 50%;
+  display: inline-block;
+  padding-right: 8px;
+}
+.half-email {
+  width: 50%;
+  float: right;
+  padding-left: 8px;
+}
+
+.w3-input {
+  width: 100%;
+}
+.w3-input-1{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.w3-input{
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.confirm{
+  overflow: hidden;
+  margin: 16px 0px;
+  display: inline-block;
+  float: right;
+}
+
+.confirm .w3-right:hover {
+  background-color: gray;
+  color: black;
+}
+.w3-right{
+  background-color: black;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+  border: none;
+}
+
+.picture-map img{
+  height: 621px;
+  width: 100%;
+  vertical-align: middle;
+
 }
 #foodter {
+padding-top: 64px;
+padding-bottom: 64px;
+text-align: center;
+font-size: 24px;
+opacity: 0.60;
+}
+#foodter i:hover{
+opacity: 0.40;
+}
+.medium{
+  margin: 15px 0px;
+  font-size: 15px;
+}
+.medium a{
+color: inherit;
 }
