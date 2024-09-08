@@ -293,16 +293,16 @@ cho từng khối luôn nhé */
 .w3-input {
   width: 100%;
 }
-.w3-input-1{
+.w3-input-1 {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
 }
-.w3-input{
+.w3-input {
   padding: 10px;
   border: 1px solid #ccc;
 }
-.confirm{
+.confirm {
   overflow: hidden;
   margin: 16px 0px;
   display: inline-block;
@@ -313,7 +313,7 @@ cho từng khối luôn nhé */
   background-color: gray;
   color: black;
 }
-.w3-right{
+.w3-right {
   background-color: black;
   color: white;
   padding: 10px 15px 10px 15px;
@@ -321,26 +321,87 @@ cho từng khối luôn nhé */
   border: none;
 }
 
-.picture-map img{
+.picture-map img {
   height: 621px;
   width: 100%;
   vertical-align: middle;
-
 }
 #foodter {
-padding-top: 64px;
-padding-bottom: 64px;
-text-align: center;
-font-size: 24px;
-opacity: 0.60;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.6;
 }
-#foodter i:hover{
-opacity: 0.40;
+#foodter i:hover {
+  opacity: 0.4;
 }
-.medium{
+.medium {
   margin: 15px 0px;
   font-size: 15px;
 }
-.medium a{
-color: inherit;
+.medium a {
+  color: inherit;
 }
+
+.model {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.model-container {
+  background: #fff;
+  width: 900px;
+  position: relative;
+  min-height: 200px;
+}
+.ti-close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 9px 15px;
+}
+
+.ti-close:hover {
+  background-color: #ccc;
+}
+.model{
+  display: none;
+}
+.model-header {
+  background-color: #009688;
+  padding: 47px 11px;
+  text-align: center;
+  font-size: 30px;
+  min-height: 129px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.model-body {
+  display: grid;
+  padding: 0px 16px;
+}
+.modal-footer {
+  float: right;
+  padding-right: 16px;
+}
+#buy-ticket {
+  padding: 16px;
+  margin-top: 10px;
+  background-color: #009688;
+  border: none;
+  font-size: 15px;
+  color: white;
+  }
+
+.model-help{
+  margin: 15px;
+}
+  
