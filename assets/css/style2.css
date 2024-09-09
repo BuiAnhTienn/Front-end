@@ -69,14 +69,18 @@ min-width: 90px;
 
 .sidebar-one {
     flex: 1;
+    order: 1;
+    /* sắp xếp vị trí trong các items */
 }
 
 .sidebar-two {
     flex: 1;
+    order: 2;
 }
 
 .main-column {
     flex: 3;
+    order: 3;
 }
 
 /* Feature layout */
