@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+
+      h2 {
+        margin-top: 200px;
+        display: none; /* Mặc định ẩn tất cả các h2 */
+      }
+
+      /* Hiển thị .pc khi màn hình lớn hơn hoặc bằng 1024px */
+      @media (min-width: 1024px) {
+        .pc {
+          display: block;
+        }
+      }
+
+      /* Hiển thị .tablet khi màn hình nhỏ hơn 1024px và bằng 740px */
+      @media (max-width: 1023px) and (min-width: 740px) {
+        .tablet {
+          display: block;
+        }
+      }
+
+      /* Hiển thị .mobile khi màn hình nhỏ hơn 740px */
+      @media (max-width: 739px) {
+        .mobile {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="pc">PC</h2>
+      <h2 class="tablet">TABLET</h2>
+      <h2 class="mobile">MOBILE</h2>
+    </div>
+  </body>
+</html>
