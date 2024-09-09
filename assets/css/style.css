@@ -122,11 +122,14 @@ cho từng khối luôn nhé */
 }
 
 #content .content-section {
+  max-width: 100%;
   width: 800px;
   padding-top: 64px;
   padding-bottom: 64px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 #content .content-heading {
   text-align: center;
@@ -405,4 +408,15 @@ cho từng khối luôn nhé */
 .model-help{
   margin: 15px;
 }
+
+
+/* @media screen and (min-width: 1024px) {
   
+}
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+  
+}
+
+@media screen and (max-width: 739px) {
+  
+} */
